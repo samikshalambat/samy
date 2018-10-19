@@ -1,10 +1,12 @@
-public class MyJavaProgram {
+public class MyJavaProgram 
+{
 
-   /* This is my first java program.
-    * This will print 'Hello World' as the output
-    */
-
-   public static void main(String []args) {
+    public static void main(String []args) 
+    {
+      int a,b,c;
       System.out.println("Hello World"); // prints Hello World
+    Scanner x=new Scanner(System.in);
+   a=x.nextInt();
+
    }
 }
