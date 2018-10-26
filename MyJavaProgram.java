@@ -9,5 +9,6 @@ public class MyJavaProgram
    a=x.nextInt();
     b=x.nextInt();
    c=a+b;
+   c=a/b;
    }
 }
