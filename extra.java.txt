@@ -1,14 +1,14 @@
-public class MyJavaProgram 
+public class extra 
 {
-  public static void main(String []args) 
+
+    public static void main(String []args) 
     {
-      int a,b;
-      float c;
+      int a,b,c,d;
       System.out.println("Hello World"); // prints Hello World
     Scanner x=new Scanner(System.in);
    a=x.nextInt();
     b=x.nextInt();
-   c=a+b;
-   c=a/b;
+   c=a-b;
+   d=a*b;
    }
 }
